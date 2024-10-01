@@ -4,7 +4,7 @@ const app = express();
 
 const cors = require('cors');
 app.use(cors({
-  origin: 'https://mern-productcatalogue-frontend.vercel.app/' // Your frontend URL
+  origin: 'https://mern-productcatalogue-frontend.vercel.app' // Your frontend URL
 }));
 
 
