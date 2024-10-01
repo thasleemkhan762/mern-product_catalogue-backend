@@ -4,7 +4,7 @@ const app = express();
 
 const cors = require('cors');
 app.use(cors({
-  origin: 'http://localhost:3000' // Your frontend URL
+  origin: 'https://mern-product-catalogue-backend.onrender.com' // Your frontend URL
 }));
 
 
